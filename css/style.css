@@ -17,11 +17,6 @@ main {
     padding: 0 30px;
     text-align: center;
 }
-img{
-    object-fit: contain;
-    border-radius: 25%;
-    width: 300px;
-}
 .intro {
     font-size: 3.75em;
     font-weight: 600;
