@@ -9,17 +9,34 @@ html{
 .icons-social i {
     font-size: 3em;
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 main {
+    width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: center;
+    border: solid rgb(0, 0, 0,0.2) 1px;
+    box-shadow: 1em 2em rgb(0, 0, 0,0.5);
+    border-radius: 20px;
     padding: 0 30px;
     text-align: center;
+    
 }
 .intro {
     font-size: 3.75em;
     font-weight: 600;
+    transition: all .3s ease-out;
+}
+.intro:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: red;
 }
 .tagline{
     font-size: 1.5em;
