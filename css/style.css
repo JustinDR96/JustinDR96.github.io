@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 html{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -12,6 +16,11 @@ main {
     justify-content: center;
     padding: 0 30px;
     text-align: center;
+}
+img{
+    object-fit: contain;
+    border-radius: 25%;
+    width: 300px;
 }
 .intro {
     font-size: 3.75em;
